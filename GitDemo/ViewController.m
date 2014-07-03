@@ -21,6 +21,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [self sayByeBye];
 }
 
 - (void)didReceiveMemoryWarning
@@ -34,6 +36,10 @@
     self.sum = a + b;
     
     NSLog(@"The result is: %d", self.sum);
+}
+
+-(void)sayByeBye{
+    NSLog(@"Bye - Bye");
 }
 
 @end
