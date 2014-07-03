@@ -21,6 +21,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [self sayByeBye];
 }
 
 - (void)didReceiveMemoryWarning
@@ -40,6 +42,10 @@
 
 -(void)sayHello{
     NSLog(@"Hello");
+}
+
+-(void)sayByeBye{
+    NSLog(@"Bye - Bye");
 }
 
 @end
