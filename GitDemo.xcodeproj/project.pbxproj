@@ -21,6 +21,7 @@
 		1806C43419652EC700F46D29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1806C41619652EC700F46D29 /* UIKit.framework */; };
 		1806C43C19652EC700F46D29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1806C43A19652EC700F46D29 /* InfoPlist.strings */; };
 		1806C43E19652EC700F46D29 /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1806C43D19652EC700F46D29 /* GitDemoTests.m */; };
+		185C9BEC19653C9D0062B996 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C9BEB19653C9D0062B996 /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1806C43919652EC700F46D29 /* GitDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitDemoTests-Info.plist"; sourceTree = "<group>"; };
 		1806C43B19652EC700F46D29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1806C43D19652EC700F46D29 /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
+		185C9BEA19653C9D0062B996 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		185C9BEB19653C9D0062B996 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				1806C42819652EC700F46D29 /* ViewController.m */,
 				1806C42A19652EC700F46D29 /* Images.xcassets */,
 				1806C41919652EC700F46D29 /* Supporting Files */,
+				185C9BEA19653C9D0062B996 /* TestClass.h */,
+				185C9BEB19653C9D0062B996 /* TestClass.m */,
 			);
 			path = GitDemo;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185C9BEC19653C9D0062B996 /* TestClass.m in Sources */,
 				1806C42919652EC700F46D29 /* ViewController.m in Sources */,
 				1806C42319652EC700F46D29 /* AppDelegate.m in Sources */,
 				1806C41F19652EC700F46D29 /* main.m in Sources */,
@@ -456,6 +462,7 @@
 				1806C44319652EC700F46D29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1806C44419652EC700F46D29 /* Build configuration list for PBXNativeTarget "GitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				1806C44619652EC700F46D29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
